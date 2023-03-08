@@ -28,9 +28,10 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"defaultPalette": false,
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "#fefefa",
 					"name": "Base",
 					"slug": "base"
 				},
@@ -40,19 +41,39 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#9DFF20",
+					"color": "#006700",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#345C00",
+					"color": "#0000ff",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#F6F6F6",
+					"color": "#a40000",
 					"name": "Tertiary",
 					"slug": "tertiary"
+				},
+				{
+					"color": "#A3008C",
+					"name": "Quaternary",
+					"slug": "quaternary"
+				},
+				{
+					"color": "#69359c",
+					"name": "Quinary",
+					"slug": "quinary"
+				},
+				{
+					"color": "#6E5502",
+					"name": "Senary",
+					"slug": "senary"
+				},
+				{
+					"color": "#f5f5f5",
+					"name": "Septenary",
+					"slug": "septenary"
 				}
 			]
 		},
@@ -112,177 +133,152 @@
 				{
 					"fontFace": [
 						{
-							"fontFamily": "DM Sans",
+							"fontFamily": "Poppins",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/dm-sans/DMSans-Regular.woff2"
+								"file:./assets/fonts/poppins/Poppins-Regular.ttf"
 							]
 						},
 						{
-							"fontFamily": "DM Sans",
+							"fontFamily": "Poppins",
 							"fontStretch": "normal",
 							"fontStyle": "italic",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/dm-sans/DMSans-Regular-Italic.woff2"
+								"file:./assets/fonts/poppins/Poppins-Italic.ttf"
 							]
 						},
 						{
-							"fontFamily": "DM Sans",
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/dm-sans/DMSans-Bold.woff2"
+								"file:./assets/fonts/poppins/Poppins-Bold.ttf"
 							]
 						},
 						{
-							"fontFamily": "DM Sans",
+							"fontFamily": "Poppins",
 							"fontStretch": "normal",
 							"fontStyle": "italic",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/dm-sans/DMSans-Bold-Italic.woff2"
+								"file:./assets/fonts/poppins/Poppins-BoldItalic.ttf"
 							]
 						}
 					],
-					"fontFamily": "\"DM Sans\", sans-serif",
-					"name": "DM Sans",
-					"slug": "dm-sans"
+					"fontFamily": "\"Poppins\", sans-serif",
+					"name": "Poppins",
+					"slug": "poppins"
 				},
 				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "IBM Plex Mono",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "IBM Plex Mono",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "IBM Plex Mono",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "IBM Plex Mono",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2"
-							]
-						}
-					],
-					"fontFamily": "'IBM Plex Mono', monospace",
-					"name": "IBM Plex Mono",
-					"slug": "ibm-plex-mono"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Inter",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "200 900",
-							"src": [
-								"file:./assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf"
-							]
-						}
-					],
-					"fontFamily": "\"Inter\", sans-serif",
-					"name": "Inter",
-					"slug": "inter"
-				},
-				{
-					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Poppins\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Source Serif Pro",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "200 900",
-							"src": [
-								"file:./assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2"
-							]
-						},
-						{
-							"fontFamily": "Source Serif Pro",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"fontWeight": "200 900",
-							"src": [
-								"file:./assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2"
-							]
-						}
-					],
-					"fontFamily": "\"Source Serif Pro\", serif",
-					"name": "Source Serif Pro",
-					"slug": "source-serif-pro"
 				}
 			],
 			"fontSizes": [
 				{
 					"fluid": {
-						"min": "0.875rem",
-						"max": "1rem"
+						"min": "0.875em",
+						"max": "0.9375em"
 					},
-					"size": "1rem",
+					"size": "0.9375em",
+					"slug": "x-small"
+				},
+				{
+					"fluid": {
+						"min": "1em",
+						"max": "1.125em"
+					},
+					"size": "1.125em",
 					"slug": "small"
 				},
 				{
 					"fluid": {
-						"min": "1rem",
-						"max": "1.125rem"
+						"min": "1.125em",
+						"max": "1.25em"
 					},
-					"size": "1.125rem",
+					"size": "1.25em",
 					"slug": "medium"
 				},
 				{
 					"fluid": {
-						"min": "1.75rem",
-						"max": "1.875rem"
+						"min": "1.25em",
+						"max": "1.5625em"
 					},
-					"size": "1.75rem",
+					"size": "1.5625em",
 					"slug": "large"
 				},
 				{
-					"fluid": false,
-					"size": "2.25rem",
+					"fluid": {
+						"min": "1.5625em",
+						"max": "2em"
+					},
+					"size": "2em",
 					"slug": "x-large"
 				},
 				{
 					"fluid": {
-						"min": "4rem",
-						"max": "10rem"
+						"min": "2em",
+						"max": "2.5em"
 					},
-					"size": "10rem",
+					"size": "2.5em",
 					"slug": "xx-large"
+				},
+				{
+					"fluid": {
+						"min": "2.5em",
+						"max": "3em"
+					},
+					"size": "3em",
+					"slug": "huge"
+				},
+				{
+					"fluid": {
+						"min": "3em",
+						"max": "4em"
+					},
+					"size": "4em",
+					"slug": "gigantic"
 				}
 			]
 		},
@@ -300,12 +296,12 @@
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline"
 							}
 						},
 						":active": {
 							"typography": {
-								"textDecoration": "none"
+								"textDecoration": "underline"
 							}
 						},
 						"typography": {
@@ -314,7 +310,8 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontWeight": "500"
 				}
 			},
 			"core/post-author": {
@@ -344,11 +341,11 @@
 				"elements": {
 					"link": {
 						"typography": {
-							"textDecoration": "none"
+							"textDecoration": "underline"
 						},
 						":hover": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "none"
 							}
 						}
 					}
@@ -367,18 +364,18 @@
 					}
 				},
 				"typography": {
-					"fontWeight": "400"
+					"fontWeight": "700"
 				},
 				"elements": {
 					"link": {
 						":hover": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "none"
 							}
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline"
 							}
 						},
 						":active": {
@@ -415,7 +412,7 @@
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline"
 							}
 						},
 						":active": {
@@ -559,6 +556,9 @@
 			"core/site-title": {
 				"elements": {
 					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--primary)"
+						},
 						":hover": {
 							"typography": {
 								"textDecoration": "underline"
@@ -566,12 +566,12 @@
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline"
 							}
 						},
 						":active": {
 							"color": {
-								"text": "var(--wp--preset--color--secondary)"
+								"text": "var(--wp--preset--color--primary)"
 							},
 							"typography": {
 								"textDecoration": "none"
@@ -583,8 +583,8 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "normal",
+					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"fontWeight": "700",
 					"lineHeight": "1.4"
 				}
 			}
@@ -596,69 +596,70 @@
 		"elements": {
 			"button": {
 				"border": {
-					"radius": "0"
+					"radius": ".65em"
 				},
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
-					"text": "var(--wp--preset--color--contrast)"
+					"text": "var(--wp--preset--color--base)"
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--contrast)",
+						"background": "var(--wp--preset--color--primary)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				":focus": {
 					"color": {
-						"background": "var(--wp--preset--color--contrast)",
+						"background": "var(--wp--preset--color--primary)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				":active": {
 					"color": {
-						"background": "var(--wp--preset--color--secondary)",
+						"background": "var(--wp--preset--color--primary)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				":visited": {
 					"color": {
-						"text": "var(--wp--preset--color--contrast)"
+						"text": "var(--wp--preset--color--base)"
 					}
 				}
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "3.625rem",
+					"fontSize": "var(--wp--preset--font-size--gigantic)",
+					"fontWeight" : "700",
 					"lineHeight": "1.2"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem)",
+					"fontSize": "clamp(2em, calc(2em + ((1vw - 0.48em) * 8.4135)), 2.5em)",
+					"fontWeight" : "700",
 					"lineHeight": "1.2"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)"
+					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"fontWeight" : "700"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)"
+					"fontSize": "var(--wp--preset--font-size--large)",
+					"fontWeight" : "700"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "700",
-					"textTransform": "uppercase"
+					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
-					"textTransform": "uppercase"
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"heading": {
