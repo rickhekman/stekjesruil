@@ -57,23 +57,48 @@
 				},
 				{
 					"color": "#A3008C",
-					"name": "Quaternary",
-					"slug": "quaternary"
+					"name": "Quartary",
+					"slug": "quartary"
 				},
 				{
 					"color": "#69359c",
-					"name": "Quinary",
-					"slug": "quinary"
+					"name": "Quintary",
+					"slug": "quintary"
 				},
 				{
 					"color": "#6E5502",
-					"name": "Senary",
-					"slug": "senary"
+					"name": "Sextary",
+					"slug": "sextary"
 				},
 				{
-					"color": "#f5f5f5",
-					"name": "Septenary",
-					"slug": "septenary"
+					"color": "#fafafa",
+					"name": "Septimary",
+					"slug": "septimary"
+				},
+				{
+					"color": "#39ff14",
+					"name": "Octavary",
+					"slug": "octavary"
+				},
+				{
+					"color": "#ffc40c",
+					"name": "Nonary",
+					"slug": "nonary"
+				},
+				{
+					"color": "#71BBFA",
+					"name": "Decimary",
+					"slug": "decimary"
+				},
+				{
+					"color": "#FF7761",
+					"name": "Undecimary",
+					"slug": "undecimary"
+				},
+				{
+					"color": "#acace6",
+					"name": "Duodecimary",
+					"slug": "duodecimary"
 				}
 			]
 		},
