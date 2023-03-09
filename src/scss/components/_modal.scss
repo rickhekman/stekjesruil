@@ -1,0 +1,20 @@
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+  background-color: $color--base;
+  color: #000;
+}
+
+.has-modal-open .admin-bar .is-menu-open .wp-block-navigation__responsive-dialog {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .wp-block-navigation.items-justified-right {
+    font-size: $font-size--x-large;
+    font-weight: 700;
+  }
+
+
+  .wp-block-navigation__responsive-container.is-menu-open {
+    padding: var(--wp--style--root--padding-top,2em) var(--wp--style--root--padding-right,2em) var(--wp--style--root--padding-bottom,2em) var(--wp--style--root--padding-left,2em);
+  }
+}

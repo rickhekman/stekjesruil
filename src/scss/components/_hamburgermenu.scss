@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px) {
+  /* hamburger button */
+  .wp-block-navigation__responsive-container-open  {
+    display: block !important;
+  }
+
+  /* full menu */
+  .wp-block-navigation__responsive-container:not(.is-menu-open.has-modal-open) {
+    display: none !important;
+  }
+}
