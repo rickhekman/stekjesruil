@@ -1,0 +1,8 @@
+.wp-element-button, .wp-block-button__link {
+  transition: opacity .3s ease-in-out;
+
+  &:hover,
+  &:active {
+    opacity: .9;
+  }
+}
