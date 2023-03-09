@@ -1,0 +1,19 @@
+/**
+ * 1. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  -webkit-text-size-adjust: 100%; /* 1 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
