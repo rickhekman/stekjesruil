@@ -9,3 +9,25 @@
     display: none !important;
   }
 }
+
+.wp-block-navigation__responsive-container-open {
+  svg {
+    background-image: url(../svg/menu-open.svg) !important;
+    display: block;
+    content: ' ';
+    background-size: 24px 24px;
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.wp-block-navigation__responsive-container-close {
+  svg {
+    background-image: url(../svg/menu-close.svg) !important;
+    display: block;
+    content: ' ';
+    background-size: 24px 24px;
+    height: 24px;
+    width: 24px;
+  }
+}
