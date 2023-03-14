@@ -1,0 +1,33 @@
+.nf-form-layout {
+  max-width: 500px;
+}
+
+.nf-form-fields-required {
+  font-size: $font-size--x-small;
+  font-style: italic;
+  padding-bottom: 1em;
+}
+
+.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
+  font-family: inherit;
+  font-size: inherit;
+  height: auto;
+  background: $color--primary;
+  color: $color--base;
+  border-radius: .65em;
+  transition: opacity .3s ease-in-out;
+  cursor: pointer;
+
+
+  &:hover {
+    background: $color--primary;
+    color: $color--base;
+    opacity: .9;
+  }
+
+  &:focus {
+    background-color: $color--base;
+    color: $color--contrast;
+    border: 2px solid $color--contrast;
+  }
+}
