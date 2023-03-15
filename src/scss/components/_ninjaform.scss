@@ -13,7 +13,7 @@
   font-size: inherit;
   height: auto;
   background: $color--primary;
-  color: $color--base;
+  color: $color--base !important;
   border-radius: .65em;
   transition: opacity .3s ease-in-out;
   cursor: pointer;
@@ -30,4 +30,22 @@
     color: $color--contrast;
     border: 2px solid $color--contrast;
   }
+}
+
+.nf-form-content .list-select-wrap .nf-field-element>div:focus, .nf-form-content input:not([type=button]):focus, .nf-form-content textarea:focus {
+  border: 2px solid;
+  border-color: $color--contrast;
+  color: $color--contrast;
+  background-color: white;
+}
+
+.nf-form-content input:not([type=button]), .nf-form-content textarea {
+  color: $color--contrast;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.nf-form-content .ninja-forms-field {
+  font-size: inherit;
+  font-family: inherit;
 }
