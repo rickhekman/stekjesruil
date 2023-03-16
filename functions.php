@@ -55,3 +55,12 @@ function styles() {
 
 }
 add_action( 'wp_enqueue_scripts', 'styles' );
+
+// require get_stylesheet_directory() . '/inc/vv-sidebars.php';
+// new VVSidebars();
+
+/**
+ * Stekjesruil custom post types
+ */
+//  require get_stylesheet_directory() . '/patterns/events.php';
+//  require get_stylesheet_directory() . '/inc/stekjesruil-post-types.php';

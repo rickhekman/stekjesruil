@@ -14,6 +14,8 @@
 /* 7. COMPONENTS*/
 @import
 'components/buttons',
+'components/event-item',
+'components/events',
 'components/hamburgermenu',
 'components/modal',
 'components/navigation',
@@ -21,6 +23,7 @@
 
 /* 7. LAYOUT*/
 @import
+  'layout/archive-events',
   'layout/footer',
   'layout/header',
   'layout/wp-block-group';
