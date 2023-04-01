@@ -53,6 +53,10 @@ Template Name: Archive events
                           <?php the_title( sprintf( '<h2 class="event__title"><a href="%s">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
                           <?php the_excerpt(); ?>
                         </div>
+                        <div>
+                            <p><?php the_field('dag'); ?></p>
+                            <p><?php the_field('datum'); ?></p>
+                        </div>
                       </li>
                   <?php }
                 ?>
