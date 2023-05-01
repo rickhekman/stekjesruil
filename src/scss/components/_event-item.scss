@@ -19,6 +19,12 @@
         left: 0;
         z-index: 2;
       }
+
+      &:focus,
+      &:active,
+      &:hover {
+        color: inherit;
+      }
     }
 
     @include respond(mobile) {
