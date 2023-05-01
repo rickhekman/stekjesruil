@@ -5,6 +5,7 @@
     background-color: white;
     box-shadow: 0 0.4em 1em rgb(0 0 0 / 10%);
     border-radius: .75em;
+    flex-basis: 100%;
 
     a {
       text-decoration: none;
@@ -16,6 +17,7 @@
         right: 0;
         bottom: 0;
         left: 0;
+        z-index: 2;
       }
     }
 
@@ -82,5 +84,17 @@
 
   &__title {
     font-size: $font-size--large;
+  }
+
+  &__datetime {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    margin: 0;
+    padding: 0 .4em;
+    border-radius: .25em;
+    font-size: $font-size--x-small;
+    background-color: $color--nonary;
+    z-index: 1;
   }
 }

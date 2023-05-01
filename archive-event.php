@@ -53,14 +53,14 @@ Template Name: Archive events
                           <?php the_title( sprintf( '<h2 class="event__title"><a href="%s">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
                           <?php the_excerpt(); ?>
                         </div>
-                        <div>
-                        <p><?php
+                        <p class="event__datetime">
+                          <?php
                               $eventDate = new DateTime(get_field('datum'));
                               setlocale(LC_TIME, 'NL_nl');
                               setlocale(LC_ALL, 'nl_NL');
                               echo $eventDate -> format('l d F Y');
-                            ?></p>
-                        </div>
+                            ?>
+                        </p>
                       </li>
                   <?php }
                 ?>
