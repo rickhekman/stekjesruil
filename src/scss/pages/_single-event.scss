@@ -7,7 +7,7 @@
     margin-bottom: 2em;
 
     @include respond(tablet) {
-      height: 70vh;
+      height: 50vh;
     }
 
     img {
@@ -35,8 +35,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: .5em !important;
-    font-size: $font-size--large;
+    font-size: $font-size--medium;
     font-weight: 500;
+    margin-top: 0.25em !important;
+    color: $color--grey;
 
     @include respond(mobile) {
       gap: 1em;
@@ -63,13 +65,15 @@
     margin-top: 3em !important;
     padding-top: 1em;
     border-top: 2px dotted lightgray;
-
+    color: $color--grey;
     p {
       margin: 0;
     }
   }
 
   &__location {
+    margin-top: .75em !important;
+    color: $color--grey;
 
     &-title {
       font-weight: 500;
@@ -77,8 +81,33 @@
 
     p {
       margin: 0;
+      font-size: $font-size--x-small;
     }
 
+    &-route {
+      margin-top: 1.25em !important;
+    }
+
+    &-btn {
+      background-color: $color--grey-light;
+      text-decoration: none;
+      padding: .25em .75em;
+      border-radius: .45em;
+      transition: all .5s;
+
+      &:active,
+      &:hover,
+      &:focus,
+      &:visited {
+        color: $color--contrast;
+        text-decoration: none;
+      }
+
+      @include respond(tablet) {
+        &:hover {
+          opacity: .8;
+        }
+      }
+    }
   }
 }
-
