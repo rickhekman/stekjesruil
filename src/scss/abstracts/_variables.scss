@@ -34,6 +34,9 @@ $color--nonary: #ffc40c;
 $color--decimary: #71BBFA;
 $color--undecimary: #FF7761;
 $color--duodecimary: #acace6;
+$color--grey: #4F4F4E;
+$color--grey-light: #dbdada;
+
 
 /**
  * Global font sizes
@@ -60,3 +63,8 @@ $font-size--x-large: clamp(1.5625em, 1.563rem + ((1vw - 0.48em) * 0.84), 2em);
 $font-size--xx-large: clamp(2em, 2rem + ((1vw - 0.48em) * 0.962), 2.5em);
 $font-size--huge: clamp(2.5em, 2.5rem + ((1vw - 0.48em) * 0.962), 3em);
 $font-size--gigantic: clamp(3em, 3rem + ((1vw - 0.48em) * 1.923), 4em);
+
+
+/* Layouts */
+
+$medium-size: 1000px;
