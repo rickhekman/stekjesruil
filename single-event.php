@@ -44,17 +44,17 @@ Template Name: Event detail page
                 <h1 class="single-event__title"><?php the_title() ?></h1>
 
                 <div class="single-event__datetime">
-                  <div class="single-event__date">
-                    <p><?php the_field('dag'); ?> <?php
+                    <p><?php
                       $eventDate = new DateTime(get_field('datum'));
-                      echo $eventDate -> format('d F Y');
+                      echo $eventDate -> format('l d F Y');
                      ?>
                     </p>
-                  </div>
-
-                  <div class="single-event__time">
-                    <p><?php the_field('begintijd'); ?> - <?php the_field('eindtijd'); ?></p>
-                  </div>
+                    <p>
+                      <?php the_field('begintijd'); ?>
+                      tot
+                      <?php the_field('eindtijd'); ?>
+                      uur
+                    </p>
                 </div>
 
 
@@ -63,11 +63,22 @@ Template Name: Event detail page
                 </div>
 
                 <div class="single-event__data">
-                  <p><?php the_field('dag'); ?> <?php
+                  <p>
+                    <?php
                       $eventDate = new DateTime(get_field('datum'));
-                      echo $eventDate -> format('d F Y');
-                     ?></p>
-                  <p><?php the_field('begintijd'); ?> - <?php the_field('eindtijd'); ?></p>
+                      setlocale(LC_TIME, 'NL_nl');
+                      setlocale(LC_ALL, 'nl_NL');
+                      echo $eventDate -> format('l d F Y');
+                     ?>
+                  </p>
+                  <p><?php the_field('begintijd'); ?> - <?php the_field('eindtijd'); ?> uur</p>
+                </div>
+                <div class="single-event__location">
+                  <p class="single-event__location-title">Locatie:</p>
+                  <p><?php the_field('naam_locatie'); ?></p>
+                  <p><?php the_field('straat'); ?></p>
+                  <p><?php the_field('postcode'); ?> <?php the_field('stad'); ?></p>
+                  <a href="<?php the_field('route'); ?>" target="_blank" rel="noopener noreferrer" aria-label="Route naar de locatie">Route</a>
                 </div>
 
               </div>
