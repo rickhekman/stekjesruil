@@ -74,11 +74,21 @@ Template Name: Event detail page
                   <p><?php the_field('begintijd'); ?> - <?php the_field('eindtijd'); ?> uur</p>
                 </div>
                 <div class="single-event__location">
-                  <p class="single-event__location-title">Locatie:</p>
-                  <p><?php the_field('naam_locatie'); ?></p>
-                  <p><?php the_field('straat'); ?></p>
-                  <p><?php the_field('postcode'); ?> <?php the_field('stad'); ?></p>
-                  <a href="<?php the_field('route'); ?>" target="_blank" rel="noopener noreferrer" aria-label="Route naar de locatie">Route</a>
+                  <p class="single-event__location-title">
+                    Locatie:
+                  </p>
+                  <p>
+                    <?php the_field('naam_locatie'); ?>
+                  </p>
+                  <p>
+                    <?php the_field('straat'); ?>
+                  </p>
+                  <p>
+                    <?php the_field('postcode'); ?> <?php the_field('stad'); ?>
+                  </p>
+                  <p class="single-event__location-route">
+                    <a href="<?php the_field('route'); ?>" class="single-event__location-btn" target="_blank" rel="noopener noreferrer" aria-label="Route naar de locatie">Route</a>
+                  </p>
                 </div>
 
               </div>
