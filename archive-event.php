@@ -56,11 +56,10 @@ Template Name: Archive events
                         </div>
                         <p class="event__datetime">
                           <?php
-                              $eventDate = new DateTime(get_field('datum'));
-                              setlocale(LC_TIME, 'NL_nl');
-                              setlocale(LC_ALL, 'nl_NL');
-                              echo $eventDate -> format('l d F Y');
-                            ?>
+                            $eventDate = new DateTime(get_field('datum'));
+                            setlocale(LC_TIME, 'nl_NL.utf8');
+                            echo ucfirst(strftime('%A %e %B %Y', $eventDate->getTimestamp()));
+                          ?>
                         </p>
                       </li>
                   <?php }

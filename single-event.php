@@ -46,9 +46,12 @@ Template Name: Event detail page
 
                 <div class="single-event__datetime">
                     <p><?php
-                      $eventDate = new DateTime(get_field('datum'));
-                      echo $eventDate -> format('l d F Y');
-                     ?>
+                        $eventDate = new DateTime(get_field('datum'));
+                        // Set the locale to Dutch for the Netherlands (NL_nl)
+                        setlocale(LC_TIME, 'nl_NL.utf8'); // Update the locale format as needed
+                        // Format and display the translated date
+                        echo ucfirst(strftime('%A %e %B %Y', $eventDate->getTimestamp()));
+                      ?>
                     </p>
                     <p>
                       <?php the_field('begintijd'); ?>
@@ -65,15 +68,15 @@ Template Name: Event detail page
 
                 <div class="single-event__data">
                   <p>
-                    <?php
-                      $eventDate = new DateTime(get_field('datum'));
-                      setlocale(LC_TIME, 'NL_nl');
-                      setlocale(LC_ALL, 'nl_NL');
-                      echo $eventDate -> format('l d F Y');
-                     ?>
+                     <?php
+                        $eventDate = new DateTime(get_field('datum'));
+                        setlocale(LC_TIME, 'nl_NL.utf8');
+                        echo ucfirst(strftime('%A %e %B %Y', $eventDate->getTimestamp()));
+                      ?>
                   </p>
                   <p><?php the_field('begintijd'); ?> - <?php the_field('eindtijd'); ?> uur</p>
                 </div>
+
                 <div class="single-event__location">
                   <p class="single-event__location-title">
                     Locatie:
@@ -93,9 +96,6 @@ Template Name: Event detail page
                 </div>
 
               </div>
-
-
-
             </div>
 
           </div>
