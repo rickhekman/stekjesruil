@@ -59,6 +59,10 @@
 
   &__content {
     padding-top: .5em;
+
+    a {
+      color: $color--secondary;
+    }
   }
 
   &__data {
