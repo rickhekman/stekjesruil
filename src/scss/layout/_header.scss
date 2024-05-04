@@ -2,7 +2,7 @@ header {
   position: sticky;
   top: 0;
   background-color: $color--base;
-  padding: calc(.2 * var(--wp--style--root--padding-top)) 0;
+  padding: calc(.2 * var(--wp--style--root--padding-top)) var(--wp--style--root--padding-right);
   box-shadow: 0 2px 3px -2px rgba(black, .10);
   z-index: 1000;
 }
